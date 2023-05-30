@@ -4,6 +4,15 @@
         <businessObject qualifiedName="com.company.model.BusinessObject">
             <fields>
                 <field type="STRING" length="1" name="projectType" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="projectValidated" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.BusinessObjectInitial">
+            <fields>
+                <field type="BOOLEAN" length="255" name="infoAndExpSuf" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>

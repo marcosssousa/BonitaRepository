@@ -5,7 +5,7 @@
   <groupId>com.company</groupId>
   <artifactId>projeto_fase2_versao1</artifactId>
   <version>0.0.1</version>
-  <name>Projeto_Fase2_Versao1</name>
+  <name>BonitaRepository</name>
   <properties>
     <bonita.runtime.version>7.15.0</bonita.runtime.version>
     <maven-install-plugin.version>3.0.0-M1</maven-install-plugin.version>

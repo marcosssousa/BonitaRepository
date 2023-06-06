@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.3",
-  "id" : "newFormInfoExpSuf",
-  "name" : "newFormInfoExpSuf",
-  "lastUpdate" : 1684858297701,
+  "id" : "newFormInfoAndExpSuf",
+  "name" : "newFormInfoAndExpSuf",
+  "lastUpdate" : 1685483750723,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "d49b97fa-4e9d-4a12-a0a6-557df9bdab3c",
+        "reference" : "d6d99a29-30f4-4f8c-8a25-5b6c373ff4e5",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -50,7 +50,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "d6cbb271-608e-442b-9bd5-033d505f4d55",
+              "reference" : "9fd32b89-89ce-41db-934d-8a8d7480303b",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -98,7 +98,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "e06bdeb7-1d09-44b8-928d-105feea99a33",
+              "reference" : "42e6d790-cf37-4280-b515-351feaad533a",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -114,7 +114,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "b4bc189b-3557-4efd-a672-82f729836ea2",
+        "reference" : "b1007d2a-425f-4d1e-a863-44581de5be28",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,7 +123,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "43637a15-9ec9-401d-8a0a-adf2a9acfaa1",
+          "reference" : "886a71b0-c120-4f32-9af6-f5b37fcd3702",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -162,9 +162,95 @@
                     "value" : 12
                   }
                 },
-                "reference" : "412f6e36-1d88-4444-b5fd-2a952f879c86",
+                "reference" : "039892cc-87be-4288-9e2a-4a925bdb1863",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 1
+                  },
+                  "readOnly" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Project Type"
+                  },
+                  "placeholder" : {
+                    "type" : "constant"
+                  },
+                  "type" : {
+                    "type" : "constant",
+                    "value" : "text"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  },
+                  "value" : {
+                    "type" : "variable",
+                    "value" : "businessObjectInitialForReceive.projectType"
+                  },
+                  "required" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "minLength" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "maxLength" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "min" : {
+                    "type" : "constant"
+                  },
+                  "max" : {
+                    "type" : "constant"
+                  },
+                  "step" : {
+                    "type" : "constant",
+                    "value" : 1
+                  }
+                },
+                "reference" : "f89fb8f3-f6f1-4663-b315-6e85f471e785",
+                "hasValidationError" : false,
+                "id" : "pbInput",
                 "description" : ""
               }
             ],
@@ -194,7 +280,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "300e3c18-412c-4f9a-ba3f-d0327fc7e55f",
+                "reference" : "3625cf27-0efc-4eaf-8c8c-1d809a83bec4",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -226,7 +312,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Info And Exp Suf"
+                          "value" : "Informação e Experiência Suficientes"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -245,7 +331,7 @@
                           "value" : false
                         }
                       },
-                      "reference" : "8d73334a-fa9b-4aa7-86f7-e7f28a74c8cd",
+                      "reference" : "ec4c2072-b066-4df8-8aa2-76c502a9c1d5",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
@@ -329,7 +415,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "54f5bafc-58be-4149-b298-04e68e1d3ddd",
+                "reference" : "f6e1b8d5-1c0a-4a86-96f3-4e2543388b3d",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -381,7 +467,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "b1fb4aa0-c9c4-46ac-b8b3-2b2c77c915b8",
+                "reference" : "b559cfdc-e87e-44af-a612-de24500d0ded",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -394,16 +480,16 @@
   ],
   "assets" : [
     {
-      "id" : "d1993f4c-85d9-4047-9b80-0da27db11629",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "7abc56b9-7b3e-4efa-9acb-54af8eb0ae42",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "c1ac4899-2022-4fb5-b7af-38521c245a20",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "a7fabbd7-af01-445a-a9c1-a493327de7c8",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     }
@@ -439,7 +525,8 @@
         "\treturn {",
         "\t\t//map businessObjectInitialForReceive variable to expected task contract input",
         "\t\tbusinessObjectInitialForReceiveInput: {",
-        "\t\t\tinfoAndExpSuf: $data.businessObjectInitialForReceive.infoAndExpSuf !== undefined ? $data.businessObjectInitialForReceive.infoAndExpSuf : null",
+        "\t\t\tinfoAndExpSuf: $data.businessObjectInitialForReceive.infoAndExpSuf !== undefined ? $data.businessObjectInitialForReceive.infoAndExpSuf : null,",
+        "\t\t\tprojectType: $data.businessObjectInitialForReceive.projectType !== undefined ? $data.businessObjectInitialForReceive.projectType : null",
         "\t\t}",
         "\t}",
         "}"
@@ -469,7 +556,7 @@
     }
   },
   "hasValidationError" : false,
-  "uuid" : "8acfab72-6373-4739-b78a-9aea48895e34",
+  "uuid" : "8616df98-f300-4d0d-859c-1d45fb556706",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }

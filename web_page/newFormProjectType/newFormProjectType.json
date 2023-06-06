@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.3",
-  "id" : "newFormProjectValidated",
-  "name" : "newFormProjectValidated",
-  "lastUpdate" : 1684858542444,
+  "id" : "newFormProjectType",
+  "name" : "newFormProjectType",
+  "lastUpdate" : 1685478071915,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "f4dfc8fd-aa6c-496a-a5e1-6cec10ab6130",
+        "reference" : "9ad52b7b-139f-4141-9a76-608c34b072a5",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -50,7 +50,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "933daa45-4b28-4546-a1af-7edb6b78c3c6",
+              "reference" : "6463e5ba-af28-4619-9902-aa6383892f4a",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -98,7 +98,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "006d011c-12bf-49a7-aa35-74252ad4e056",
+              "reference" : "6692c1c2-0474-4acc-b750-32e2c5fd79aa",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -114,7 +114,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "591218e3-9d78-4f4d-9bb1-94823d133cd5",
+        "reference" : "7cca25b3-1de9-44a0-9440-f68f81299701",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,7 +123,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "ecd74a15-abcc-40d2-bb3f-8d2d8b939596",
+          "reference" : "bd61d4e5-a80e-49e2-ad52-6b6978b65722",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -151,7 +151,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Business Object Secondary"
+                    "value" : "Business Object Initial For Receive"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -162,7 +162,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "0d0d757a-08b5-470e-afca-d991a0a0887e",
+                "reference" : "c1a7a2f0-90ef-4c68-ac04-af37f88775bb",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -194,7 +194,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "c0d1a9a2-38f8-4e9d-b3b0-42d552a51878",
+                "reference" : "31e31cd1-c2bc-4356-8f85-a4c8c371c22e",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -208,120 +208,18 @@
                         "lg" : 12
                       },
                       "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
                         "cssClasses" : {
                           "type" : "constant",
                           "value" : ""
                         },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Project Type"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "businessObjectSecondary.projectType"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "minLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
-                        }
-                      },
-                      "reference" : "1f796c12-32e3-48d1-9966-897340fdafd7",
-                      "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
                         "hidden" : {
                           "type" : "constant",
                           "value" : false
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
                         },
                         "disabled" : {
                           "type" : "constant",
                           "value" : false
                         },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Project Validated"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "businessObjectSecondary.projectValidated"
-                        },
                         "required" : {
                           "type" : "constant",
                           "value" : false
@@ -329,12 +227,49 @@
                         "allowHTML" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Project Type"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "placeholder" : {
+                          "type" : "interpolation",
+                          "value" : "Select Project Type"
+                        },
+                        "availableValues" : {
+                          "type" : "constant",
+                          "value" : [
+                            "A",
+                            "B",
+                            "C"
+                          ]
+                        },
+                        "displayedKey" : {
+                          "type" : "constant"
+                        },
+                        "returnedKey" : {
+                          "type" : "constant"
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "businessObjectInitialForReceive.projectType"
                         }
                       },
-                      "reference" : "50ca0ac8-ea1e-4f9a-834b-ab1bdae56b54",
+                      "reference" : "e1841310-8029-4b42-a385-ad56527e77bb",
                       "hasValidationError" : false,
-                      "id" : "pbCheckbox",
-                      "description" : ""
+                      "id" : "pbSelect"
                     }
                   ]
                 ]
@@ -415,7 +350,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "e3fa5b03-802a-4f83-bcfd-4611f266b14c",
+                "reference" : "5db1b381-8013-4607-aec8-cdc7b83a3cd0",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -467,7 +402,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "24a1b1a6-ddea-4e1d-9627-0cde72562360",
+                "reference" : "b68540d7-fe36-4ef7-83b7-96d2a539bd79",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -480,16 +415,16 @@
   ],
   "assets" : [
     {
-      "id" : "adeb4c8a-c234-46f0-bc53-8462dc40eba3",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "0dad25d0-ab51-443d-b643-654e6379fe63",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "71d9d4dd-b2c9-4188-81bf-f8d347dc72e8",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "c9790a71-9d05-4145-913b-787b369fa7f3",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     }
@@ -521,12 +456,11 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.businessObjectSecondary ){",
+        "if( $data.businessObjectInitialForReceive ){",
         "\treturn {",
-        "\t\t//map businessObjectSecondary variable to expected task contract input",
-        "\t\tbusinessObjectSecondaryInput: {",
-        "\t\t\tprojectType: $data.businessObjectSecondary.projectType !== undefined ? $data.businessObjectSecondary.projectType : null,",
-        "\t\t\tprojectValidated: $data.businessObjectSecondary.projectValidated !== undefined ? $data.businessObjectSecondary.projectValidated : null",
+        "\t\t//map businessObjectInitialForReceive variable to expected task contract input",
+        "\t\tbusinessObjectInitialForReceiveInput: {",
+        "\t\t\tprojectType: $data.businessObjectInitialForReceive.projectType !== undefined ? $data.businessObjectInitialForReceive.projectType : null",
         "\t\t}",
         "\t}",
         "}"
@@ -540,10 +474,10 @@
       ],
       "exposed" : false
     },
-    "businessObjectSecondary" : {
+    "businessObjectInitialForReceive" : {
       "type" : "url",
       "value" : [
-        "../{{context.businessObjectSecondary_ref.link}}"
+        "../{{context.businessObjectInitialForReceive_ref.link}}"
       ],
       "exposed" : false
     },
@@ -556,7 +490,7 @@
     }
   },
   "hasValidationError" : false,
-  "uuid" : "d90f5f60-2d1c-4b59-8457-c689bb842921",
+  "uuid" : "f7ae0fb5-a016-45a0-af5c-9410afe006d7",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }

@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.3",
-  "id" : "newFormSelectProjectType",
-  "name" : "newFormSelectProjectType",
-  "lastUpdate" : 1684857823203,
+  "id" : "newFormValidateProject",
+  "name" : "newFormValidateProject",
+  "lastUpdate" : 1686008189616,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "e3c1c957-ec18-4249-9103-0d99ef408263",
+        "reference" : "c994cf17-8714-4a31-97a1-452e0a914671",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -50,7 +50,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "00f9b481-5915-47a0-968b-857ee64c97c1",
+              "reference" : "9e2d0fec-a20b-4865-a425-5141a2055b56",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -98,7 +98,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "dfbdb4f6-b54d-4ce0-81f8-42ad7857819b",
+              "reference" : "7f1894ff-5489-4778-8f1a-1d4ef339ea87",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -114,7 +114,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "80a4b95d-9f6d-40f8-89b8-95837dfedc20",
+        "reference" : "f3776820-6c43-40ef-8399-17baf8f67344",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,7 +123,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "9b97e89c-ebf8-4798-99e1-c0c0716d020c",
+          "reference" : "638425fd-67e7-4372-84c2-79364c212f52",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -151,7 +151,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Business Object Secondary"
+                    "value" : "Business Object Main Process"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -162,7 +162,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "9399e52f-e3e3-48cf-b898-8095026167cc",
+                "reference" : "ec550809-23f0-402e-8b13-fc304c609e8a",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -194,7 +194,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "2b57cd28-cf56-4f51-8229-897be755386f",
+                "reference" : "c7e66047-ad74-4be2-a28e-2f42b7b72a5a",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -208,17 +208,33 @@
                         "lg" : 12
                       },
                       "propertyValues" : {
-                        "cssClasses" : {
+                        "labelHidden" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : false
                         },
                         "hidden" : {
                           "type" : "constant",
                           "value" : false
                         },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
                         "disabled" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Project Validated"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "businessObjectMainProcess.projectValidated"
                         },
                         "required" : {
                           "type" : "constant",
@@ -227,48 +243,12 @@
                         "allowHTML" : {
                           "type" : "constant",
                           "value" : false
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Project Type"
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "placeholder" : {
-                          "type" : "interpolation"
-                        },
-                        "availableValues" : {
-                          "type" : "constant",
-                          "value" : [
-                            "A",
-                            "B",
-                            "C"
-                          ]
-                        },
-                        "displayedKey" : {
-                          "type" : "constant"
-                        },
-                        "returnedKey" : {
-                          "type" : "constant"
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "businessObjectSecondary.projectType"
                         }
                       },
-                      "reference" : "703e6c9a-b0ea-47ae-8455-b14277b5d564",
+                      "reference" : "dd6aff11-99be-4ec5-bfd7-9a807aaabf77",
                       "hasValidationError" : false,
-                      "id" : "pbSelect"
+                      "id" : "pbCheckbox",
+                      "description" : ""
                     }
                   ]
                 ]
@@ -349,7 +329,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "10476941-27b1-4d14-9df0-3b52619a4726",
+                "reference" : "4eafb532-fbd9-4b95-9ccd-253da5c949bd",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -401,7 +381,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "4d209f34-3c02-45e3-842e-8e35de134986",
+                "reference" : "09c4af6a-54b9-4eb1-9df7-d9fd073f5a39",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -414,16 +394,16 @@
   ],
   "assets" : [
     {
-      "id" : "8526cc25-aab1-4362-8bfb-9f1314d92a2b",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "26f2e909-2c7b-4ed7-8c19-b5037111cf45",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "024f446a-2e6d-43ee-bb39-672eb094fa26",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "25e4632d-db29-491b-b054-3e132cd258bc",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     }
@@ -455,11 +435,11 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.businessObjectSecondary ){",
+        "if( $data.businessObjectMainProcess ){",
         "\treturn {",
-        "\t\t//map businessObjectSecondary variable to expected task contract input",
-        "\t\tbusinessObjectSecondaryInput: {",
-        "\t\t\tprojectType: $data.businessObjectSecondary.projectType !== undefined ? $data.businessObjectSecondary.projectType : null",
+        "\t\t//map businessObjectMainProcess variable to expected task contract input",
+        "\t\tbusinessObjectMainProcessInput: {",
+        "\t\t\tprojectValidated: $data.businessObjectMainProcess.projectValidated !== undefined ? $data.businessObjectMainProcess.projectValidated : null",
         "\t\t}",
         "\t}",
         "}"
@@ -473,23 +453,23 @@
       ],
       "exposed" : false
     },
-    "businessObjectSecondary" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.businessObjectSecondary_ref.link}}"
-      ],
-      "exposed" : false
-    },
     "taskId" : {
       "type" : "urlparameter",
       "value" : [
         "id"
       ],
       "exposed" : false
+    },
+    "businessObjectMainProcess" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.businessObjectMainProcess_ref.link}}"
+      ],
+      "exposed" : false
     }
   },
   "hasValidationError" : false,
-  "uuid" : "c6144be5-d499-4a7a-b68f-f03b4ce03348",
+  "uuid" : "84a9710c-fb9b-4b51-aa72-825eed51a112",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }

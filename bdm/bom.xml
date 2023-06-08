@@ -9,6 +9,46 @@
             <queries/>
             <indexes/>
         </businessObject>
+        <businessObject qualifiedName="com.company.model.BusinessObjectAtaNecessaria">
+            <fields>
+                <field type="BOOLEAN" length="255" name="ataNecessaria" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.BusinessObjectChamada">
+            <fields>
+                <field type="BOOLEAN" length="255" name="atendeu" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.BusinessObjectClientFaseAmb">
+            <fields>
+                <field type="BOOLEAN" length="255" name="clientApproved" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.BusinessObjectFormPlaEDefMiles">
+            <fields>
+                <field type="BOOLEAN" length="255" name="docPlaneamentoNeeded" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.BusinessObjectFormRequisitos">
+            <fields>
+                <field type="BOOLEAN" length="255" name="docLevReqNeeded" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
         <businessObject qualifiedName="com.company.model.BusinessObjectInitial">
             <fields>
                 <field type="BOOLEAN" length="255" name="infoAndExpSuf" nullable="true" collection="false"/>
@@ -18,9 +58,35 @@
             <queries/>
             <indexes/>
         </businessObject>
+        <businessObject qualifiedName="com.company.model.BusinessObjectLevRevRequisitos">
+            <fields>
+                <field type="BOOLEAN" length="255" name="defRequisitos" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="defRequisitosAdc" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="requisitosApproved" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
         <businessObject qualifiedName="com.company.model.BusinessObjectMainProcess">
             <fields>
                 <field type="BOOLEAN" length="255" name="projectValidated" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.BusinessObjectReuniaoInicial">
+            <fields>
+                <field type="BOOLEAN" length="255" name="reuniaoInicialNecessaria" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.BusinessObjectReuniaoSteering">
+            <fields>
+                <field type="BOOLEAN" length="255" name="docApproved" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>

@@ -92,5 +92,14 @@
             <queries/>
             <indexes/>
         </businessObject>
+        <businessObject qualifiedName="com.company.model.BusinessObjectValidacao">
+            <fields>
+                <field type="BOOLEAN" length="255" name="testesValidados" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="projetoValidado" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
     </businessObjects>
 </businessObjectModel>

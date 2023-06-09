@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.3",
-  "id" : "newFormDocLevRequisitosNeeded",
-  "name" : "newFormDocLevRequisitosNeeded",
-  "lastUpdate" : 1686275755250,
+  "id" : "newFormAgendIniProjReuNec",
+  "name" : "newFormAgendIniProjReuNec",
+  "lastUpdate" : 1686270873249,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "5551acf1-7fdb-4320-a60c-21c7c4992221",
+        "reference" : "7356abde-fe1e-4250-b115-9adad05c8895",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -50,7 +50,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "20ffac2d-cdf0-466e-813d-2f302d710837",
+              "reference" : "901bff21-2d80-48d4-939f-d336eb379ae9",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -98,7 +98,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "a675b039-20f6-4608-8c3d-c57212429bea",
+              "reference" : "95bc80a8-b5ee-4276-abfc-3d4a0fe233b5",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -114,7 +114,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "2e716962-6b00-48b6-b536-ed0c1f82d035",
+        "reference" : "78ded29d-6ab8-4cbb-892e-f80b527e1480",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,7 +123,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "aac06ba8-e76b-4fee-9be3-44fa19bd86af",
+          "reference" : "f4a83b6d-6bb0-4788-843a-abbce303463b",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -151,7 +151,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Business Object Form Requisitos Doc Nec"
+                    "value" : "Business Object Inicial Agen Ini Pro"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -162,7 +162,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "8dc191a7-4a3e-4cfa-a947-6649970889d6",
+                "reference" : "f6b5e447-e900-4939-90ce-fc692764aac7",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -194,7 +194,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "1c3f8706-58a8-48cf-a43f-b10264d68235",
+                "reference" : "b9597e36-53c3-4b1b-a6fa-cf7336705519",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -226,7 +226,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Doc Lev Req Needed"
+                          "value" : "Reuniao Inicial necessaria"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -234,10 +234,18 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "businessObjectFormRequisitosDocNec.docLevReqNeeded"
+                          "value" : "businessObjectInicialAgenIniPro.reuniaoInicialNecessaria"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
                         }
                       },
-                      "reference" : "3b08615f-8dd8-4a02-821c-55e298f66720",
+                      "reference" : "679298fc-1ab2-424e-9a6b-bff4b05b474d",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
@@ -321,7 +329,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "13170135-831d-477b-8288-bfe79ab1a50f",
+                "reference" : "e42aa89e-7b3d-4823-8642-4d848f5841ea",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -373,7 +381,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "8775b7c8-884a-4612-9124-2bd1415b8143",
+                "reference" : "88de843b-94a5-4d2d-8f34-0766359f1a7c",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -386,14 +394,14 @@
   ],
   "assets" : [
     {
-      "id" : "a5c32cc8-788b-4f4e-95ef-530721710905",
+      "id" : "a5ad8d49-a4f7-4223-ac5a-54a50c08cfc6",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "e792f6d4-04ce-49cb-97c8-0824e7143b6a",
+      "id" : "cd57d3ff-037c-4ebb-93c2-195778db938c",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
@@ -402,17 +410,17 @@
   ],
   "inactiveAssets" : [ ],
   "variables" : {
-    "businessObjectFormRequisitosDocNec" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.businessObjectFormRequisitosDocNec_ref.link}}"
-      ],
-      "exposed" : false
-    },
     "task" : {
       "type" : "url",
       "value" : [
         "../API/bpm/userTask/{{taskId}}"
+      ],
+      "exposed" : false
+    },
+    "businessObjectInicialAgenIniPro" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.businessObjectInicialAgenIniPro_ref.link}}"
       ],
       "exposed" : false
     },
@@ -434,11 +442,11 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.businessObjectFormRequisitosDocNec ){",
+        "if( $data.businessObjectInicialAgenIniPro ){",
         "\treturn {",
-        "\t\t//map businessObjectFormRequisitosDocNec variable to expected task contract input",
-        "\t\tbusinessObjectFormRequisitosDocNecInput: {",
-        "\t\t\tdocLevReqNeeded: $data.businessObjectFormRequisitosDocNec.docLevReqNeeded !== undefined ? $data.businessObjectFormRequisitosDocNec.docLevReqNeeded : null",
+        "\t\t//map businessObjectInicialAgenIniPro variable to expected task contract input",
+        "\t\tbusinessObjectInicialAgenIniProInput: {",
+        "\t\t\treuniaoInicialNecessaria: $data.businessObjectInicialAgenIniPro.reuniaoInicialNecessaria !== undefined ? $data.businessObjectInicialAgenIniPro.reuniaoInicialNecessaria : null",
         "\t\t}",
         "\t}",
         "}"
@@ -461,7 +469,7 @@
     }
   },
   "hasValidationError" : false,
-  "uuid" : "d8680bc2-a4d8-4857-9ad8-5cc22c720948",
+  "uuid" : "62d97e5d-6a46-452c-a7b2-a2d9ba343ad7",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }

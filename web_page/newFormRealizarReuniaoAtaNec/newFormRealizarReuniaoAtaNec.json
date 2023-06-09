@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.3",
-  "id" : "newFormFaseAmbClientApproved",
-  "name" : "newFormFaseAmbClientApproved",
-  "lastUpdate" : 1686175995752,
+  "id" : "newFormRealizarReuniaoAtaNec",
+  "name" : "newFormRealizarReuniaoAtaNec",
+  "lastUpdate" : 1686276473082,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "988a1516-76dc-4df7-aec1-a4bd7460974b",
+        "reference" : "03dbd142-6d1c-46d3-a6c6-e907912d1868",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -50,7 +50,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "cc37e878-f7ec-415e-829a-d7ee545b276c",
+              "reference" : "ab2b01fa-ed8a-4d74-b69f-f4033803104c",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -98,7 +98,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "634b1a8c-dfd0-4bda-a992-60d9c88be3d6",
+              "reference" : "e2b6105d-fdf5-4594-8683-e0b6cf6ce644",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -114,7 +114,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "cb109a29-5f35-4aec-8b08-53e43c4aff12",
+        "reference" : "0d08bd87-f53f-406d-977e-0a3720c2f5f9",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,7 +123,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "462badcf-e65a-492d-bfd4-d828118c6491",
+          "reference" : "bfbe6c6e-8ddd-4df2-86a8-5b8ed53d4c47",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -151,7 +151,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Business Object Client Fase Amb Initial"
+                    "value" : "Business Object Ata Necessaria Realizar Reuniao"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -162,7 +162,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "a9a0ab72-43a5-42d2-9e67-dde69d256d28",
+                "reference" : "c6390afc-357c-4cd5-9e4c-92610fa0a72f",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -194,7 +194,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "a75d7a59-bb08-48d6-a53e-19e573400a4e",
+                "reference" : "acb8a2b9-e69d-4ad1-a4f0-a0b7db750ba3",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -226,7 +226,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Client Approved"
+                          "value" : "Ata Necessaria"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -234,18 +234,10 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "businessObjectClientFaseAmbInitial.clientApproved"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
+                          "value" : "businessObjectAtaNecessariaRealizarReuniao.ataNecessaria"
                         }
                       },
-                      "reference" : "8d91c9cd-cd94-40ee-aaf4-4c456428a03a",
+                      "reference" : "1ad97331-52a4-4a44-974a-421eed565927",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
@@ -329,7 +321,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "6d801e3c-e30b-48b5-af03-069c8c271ced",
+                "reference" : "2ddab6e7-1bf8-4a3a-881a-22afea33bb74",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -381,7 +373,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "c2490bbd-51e7-4729-87e2-63473faa5435",
+                "reference" : "5be4017a-8351-4ae3-9937-83b8d084968d",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -394,14 +386,14 @@
   ],
   "assets" : [
     {
-      "id" : "3da3cb6f-a8e4-4bdf-8816-63f3e115df98",
+      "id" : "52988c38-c56b-4b3d-b6f7-85c8f67e39cc",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "ef1c601c-c4b5-44e7-9195-c20f21f4a52f",
+      "id" : "df02e1be-4ca8-4881-acb5-aca7926b2f9c",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
@@ -410,17 +402,17 @@
   ],
   "inactiveAssets" : [ ],
   "variables" : {
-    "businessObjectClientFaseAmbInitial" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.businessObjectClientFaseAmbInitial_ref.link}}"
-      ],
-      "exposed" : false
-    },
     "task" : {
       "type" : "url",
       "value" : [
         "../API/bpm/userTask/{{taskId}}"
+      ],
+      "exposed" : false
+    },
+    "businessObjectAtaNecessariaRealizarReuniao" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.businessObjectAtaNecessariaRealizarReuniao_ref.link}}"
       ],
       "exposed" : false
     },
@@ -442,11 +434,11 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.businessObjectClientFaseAmbInitial ){",
+        "if( $data.businessObjectAtaNecessariaRealizarReuniao ){",
         "\treturn {",
-        "\t\t//map businessObjectClientFaseAmbInitial variable to expected task contract input",
-        "\t\tbusinessObjectClientFaseAmbInitialInput: {",
-        "\t\t\tclientApproved: $data.businessObjectClientFaseAmbInitial.clientApproved !== undefined ? $data.businessObjectClientFaseAmbInitial.clientApproved : null",
+        "\t\t//map businessObjectAtaNecessariaRealizarReuniao variable to expected task contract input",
+        "\t\tbusinessObjectAtaNecessariaRealizarReuniaoInput: {",
+        "\t\t\tataNecessaria: $data.businessObjectAtaNecessariaRealizarReuniao.ataNecessaria !== undefined ? $data.businessObjectAtaNecessariaRealizarReuniao.ataNecessaria : null",
         "\t\t}",
         "\t}",
         "}"
@@ -469,7 +461,7 @@
     }
   },
   "hasValidationError" : false,
-  "uuid" : "bd0cf9ba-858a-4d1d-9cb4-201e882db8df",
+  "uuid" : "fd61bebd-36ee-40c8-9e80-c3f73822ab52",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }

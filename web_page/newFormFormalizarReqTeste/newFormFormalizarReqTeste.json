@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.3",
-  "id" : "newFormDocLevRequisitosNeeded",
-  "name" : "newFormDocLevRequisitosNeeded",
-  "lastUpdate" : 1686275755250,
+  "id" : "newFormFormalizarReqTeste",
+  "name" : "newFormFormalizarReqTeste",
+  "lastUpdate" : 1686277869387,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "5551acf1-7fdb-4320-a60c-21c7c4992221",
+        "reference" : "139a5e50-c3ee-4577-954e-400c2c223b54",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -50,7 +50,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "20ffac2d-cdf0-466e-813d-2f302d710837",
+              "reference" : "1eb9e654-1f23-4d30-b844-a93db4281960",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -98,7 +98,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "a675b039-20f6-4608-8c3d-c57212429bea",
+              "reference" : "bbd63da2-d3d0-414d-ae0b-5de38aca6884",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -114,7 +114,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "2e716962-6b00-48b6-b536-ed0c1f82d035",
+        "reference" : "0e846d11-71fe-409c-9752-12d36925477e",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,7 +123,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "aac06ba8-e76b-4fee-9be3-44fa19bd86af",
+          "reference" : "6c5c5203-9b86-46fe-b586-79a93b42c912",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -151,7 +151,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Business Object Form Requisitos Doc Nec"
+                    "value" : "Business Object Initial Form Requisitos"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -162,7 +162,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "8dc191a7-4a3e-4cfa-a947-6649970889d6",
+                "reference" : "14559268-f2f9-46b8-8e4a-ed1f562e7bfa",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -194,7 +194,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "1c3f8706-58a8-48cf-a43f-b10264d68235",
+                "reference" : "ec2d060c-ce3b-4a1c-b424-d5f5a8099580",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -222,11 +222,11 @@
                         },
                         "disabled" : {
                           "type" : "constant",
-                          "value" : false
+                          "value" : true
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Doc Lev Req Needed"
+                          "value" : "Info And Exp Suf"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -234,12 +234,106 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "businessObjectFormRequisitosDocNec.docLevReqNeeded"
+                          "value" : "businessObjectInitialFormRequisitos.infoAndExpSuf"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
                         }
                       },
-                      "reference" : "3b08615f-8dd8-4a02-821c-55e298f66720",
+                      "reference" : "e54bbc8c-2733-4645-ba54-69cd6e959add",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Project Type"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "businessObjectInitialFormRequisitos.projectType"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "1c2be62c-7c71-4b3e-9024-5c777d79d6ec",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
                       "description" : ""
                     }
                   ]
@@ -321,7 +415,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "13170135-831d-477b-8288-bfe79ab1a50f",
+                "reference" : "6b26ae72-1590-4e82-a539-8fd5f8202768",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -373,7 +467,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "8775b7c8-884a-4612-9124-2bd1415b8143",
+                "reference" : "47c3331a-e7b9-4002-9be1-0d2e67a1871e",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -386,14 +480,14 @@
   ],
   "assets" : [
     {
-      "id" : "a5c32cc8-788b-4f4e-95ef-530721710905",
+      "id" : "5cdab9e6-0ab4-4a76-af9c-00ff88a28eb5",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "e792f6d4-04ce-49cb-97c8-0824e7143b6a",
+      "id" : "1ee941fa-cc30-46c9-8de7-1bab2e28419b",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
@@ -402,10 +496,10 @@
   ],
   "inactiveAssets" : [ ],
   "variables" : {
-    "businessObjectFormRequisitosDocNec" : {
+    "businessObjectInitialFormRequisitos" : {
       "type" : "url",
       "value" : [
-        "../{{context.businessObjectFormRequisitosDocNec_ref.link}}"
+        "../{{context.businessObjectInitialFormRequisitos_ref.link}}"
       ],
       "exposed" : false
     },
@@ -434,11 +528,12 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.businessObjectFormRequisitosDocNec ){",
+        "if( $data.businessObjectInitialFormRequisitos ){",
         "\treturn {",
-        "\t\t//map businessObjectFormRequisitosDocNec variable to expected task contract input",
-        "\t\tbusinessObjectFormRequisitosDocNecInput: {",
-        "\t\t\tdocLevReqNeeded: $data.businessObjectFormRequisitosDocNec.docLevReqNeeded !== undefined ? $data.businessObjectFormRequisitosDocNec.docLevReqNeeded : null",
+        "\t\t//map businessObjectInitialFormRequisitos variable to expected task contract input",
+        "\t\tbusinessObjectInitialFormRequisitosInput: {",
+        "\t\t\tinfoAndExpSuf: $data.businessObjectInitialFormRequisitos.infoAndExpSuf !== undefined ? $data.businessObjectInitialFormRequisitos.infoAndExpSuf : null,",
+        "\t\t\tprojectType: $data.businessObjectInitialFormRequisitos.projectType !== undefined ? $data.businessObjectInitialFormRequisitos.projectType : null",
         "\t\t}",
         "\t}",
         "}"
@@ -461,7 +556,7 @@
     }
   },
   "hasValidationError" : false,
-  "uuid" : "d8680bc2-a4d8-4857-9ad8-5cc22c720948",
+  "uuid" : "7be9f7ea-8251-473d-a2f3-8482f38f4044",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }

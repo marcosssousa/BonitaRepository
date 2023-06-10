@@ -33,6 +33,16 @@
             <queries/>
             <indexes/>
         </businessObject>
+        <businessObject qualifiedName="com.company.model.BusinessObjectFechoProjeto">
+            <fields>
+                <field type="BOOLEAN" length="255" name="docFinalNec" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="clariListPendNec" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="clientAtendeu" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
         <businessObject qualifiedName="com.company.model.BusinessObjectFormPlaEDefMiles">
             <fields>
                 <field type="BOOLEAN" length="255" name="docPlaneamentoNeeded" nullable="true" collection="false"/>
@@ -44,6 +54,24 @@
         <businessObject qualifiedName="com.company.model.BusinessObjectFormRequisitos">
             <fields>
                 <field type="BOOLEAN" length="255" name="docLevReqNeeded" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.BusinessObjectFormacaoMain">
+            <fields>
+                <field type="BOOLEAN" length="255" name="goConfirmed" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.BusinessObjectFormacaoMainIn">
+            <fields>
+                <field type="BOOLEAN" length="255" name="fichaIndivNec" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="propAceite" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="clientSolCertForm" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>

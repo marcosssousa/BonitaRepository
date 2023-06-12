@@ -104,6 +104,14 @@
             <queries/>
             <indexes/>
         </businessObject>
+        <businessObject qualifiedName="com.company.model.BusinessObjectReunProg">
+            <fields>
+                <field type="BOOLEAN" length="255" name="reuniaoProgrssoNec" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
         <businessObject qualifiedName="com.company.model.BusinessObjectReuniaoInicial">
             <fields>
                 <field type="BOOLEAN" length="255" name="reuniaoInicialNecessaria" nullable="true" collection="false"/>

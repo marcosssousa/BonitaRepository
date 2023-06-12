@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.3",
-  "id" : "newFormLevRevRequisitosAdc",
-  "name" : "newFormLevRevRequisitosAdc",
-  "lastUpdate" : 1686178318443,
+  "id" : "newFormteste12",
+  "name" : "newFormteste12",
+  "lastUpdate" : 1686444059625,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "3b1363b5-06cf-4989-8c3e-30b0a9c7d292",
+        "reference" : "3d374091-01ba-439b-99d4-d824178d934e",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -50,7 +50,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "05f72cd3-7e40-4fe3-b34f-6892366176bc",
+              "reference" : "b9a2d0e3-8cac-4a5c-8305-f28082a46091",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -98,7 +98,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "388d81ab-86a8-49ba-9502-e6090ca5828b",
+              "reference" : "a523e708-7148-4c44-98cd-264b39623f60",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -114,7 +114,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "aad2d5d9-d675-4f90-a819-2c97979b6425",
+        "reference" : "1272323f-fecf-4106-9c52-5a269044c435",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,7 +123,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "060c28db-7566-4d93-95ef-f8d065d1df6b",
+          "reference" : "562c8afe-968c-4ea1-8195-ab661b982986",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -151,7 +151,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Business Object Lev Rev Requisitos"
+                    "value" : "Business Object Validacao"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -162,7 +162,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "6b4c8796-d93a-4d96-9d28-115e492a50b2",
+                "reference" : "c4843006-7b9b-4e6b-9c1e-76c34958947c",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -194,7 +194,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "a0099c34-e67e-4dd0-8aa8-89542f7ae4a0",
+                "reference" : "d8396283-5ebc-4ca8-b886-62db727007fd",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -213,8 +213,8 @@
                           "value" : false
                         },
                         "hidden" : {
-                          "type" : "expression",
-                          "value" : "!businessObjectLevRevRequisitos.defRequisitos"
+                          "type" : "constant",
+                          "value" : false
                         },
                         "cssClasses" : {
                           "type" : "constant",
@@ -226,7 +226,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Def Requisitos"
+                          "value" : "Testes Validados"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -234,10 +234,18 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "businessObjectLevRevRequisitos.defRequisitos"
+                          "value" : "businessObjectValidacao.testesValidados"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
                         }
                       },
-                      "reference" : "eee24307-3379-40ed-ac76-16c0ea26e24e",
+                      "reference" : "a8f3b44d-c623-4088-beea-f158c9c7406e",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
@@ -267,11 +275,11 @@
                         },
                         "disabled" : {
                           "type" : "constant",
-                          "value" : false
+                          "value" : true
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Def Requisitos Adicionais"
+                          "value" : "Projeto Validado"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -279,7 +287,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "businessObjectLevRevRequisitos.defRequisitosAdc"
+                          "value" : "businessObjectValidacao.projetoValidado"
                         },
                         "required" : {
                           "type" : "constant",
@@ -290,7 +298,7 @@
                           "value" : false
                         }
                       },
-                      "reference" : "4573f5bd-ad33-4fb1-928a-f675e607bc2e",
+                      "reference" : "1002bc28-f47e-4b7f-8b9b-d822faeb43ce",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
@@ -374,7 +382,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "84431ed0-2c37-4867-94c6-7cc858d6a046",
+                "reference" : "6887f29b-3d6a-45f4-b88d-1dc92b9de45c",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -426,7 +434,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "92e750cf-ee8f-4235-9974-78cc2af336a9",
+                "reference" : "3d421b39-59e1-4c93-b211-5b6c9f78709d",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -439,16 +447,16 @@
   ],
   "assets" : [
     {
-      "id" : "9311b45f-11c4-4151-b785-713f1ea8a165",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "fab10398-f135-430f-bd74-60780b1347ae",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "70dee210-abb2-477c-a599-4c1a5358583b",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "84071a61-f7d9-45c5-a925-a1b673af65f9",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     }
@@ -480,11 +488,12 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.businessObjectLevRevRequisitos ){",
+        "if( $data.businessObjectValidacao ){",
         "\treturn {",
-        "\t\t//map businessObjectLevRevRequisitos variable to expected task contract input",
-        "\t\tbusinessObjectLevRevRequisitosInput: {",
-        "\t\t\tdefRequisitosAdc: $data.businessObjectLevRevRequisitos.defRequisitosAdc !== undefined ? $data.businessObjectLevRevRequisitos.defRequisitosAdc : null",
+        "\t\t//map businessObjectValidacao variable to expected task contract input",
+        "\t\tbusinessObjectValidacaoInput: {",
+        "\t\t\ttestesValidados: $data.businessObjectValidacao.testesValidados !== undefined ? $data.businessObjectValidacao.testesValidados : null,",
+        "\t\t\tprojetoValidado: $data.businessObjectValidacao.projetoValidado !== undefined ? $data.businessObjectValidacao.projetoValidado : null",
         "\t\t}",
         "\t}",
         "}"
@@ -498,23 +507,23 @@
       ],
       "exposed" : false
     },
-    "businessObjectLevRevRequisitos" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.businessObjectLevRevRequisitos_ref.link}}"
-      ],
-      "exposed" : false
-    },
     "taskId" : {
       "type" : "urlparameter",
       "value" : [
         "id"
       ],
       "exposed" : false
+    },
+    "businessObjectValidacao" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.businessObjectValidacao_ref.link}}"
+      ],
+      "exposed" : false
     }
   },
   "hasValidationError" : false,
-  "uuid" : "a87b8e9a-db37-4fd8-9761-7ae69ff94398",
+  "uuid" : "ac333dfc-2818-46d5-9801-0355bb876cec",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }

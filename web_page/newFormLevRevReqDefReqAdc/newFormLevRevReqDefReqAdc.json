@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.3",
-  "id" : "newForm2",
-  "name" : "newForm2",
-  "lastUpdate" : 1686418598061,
+  "id" : "newFormLevRevReqDefReqAdc",
+  "name" : "newFormLevRevReqDefReqAdc",
+  "lastUpdate" : 1686607775230,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "e6c8cfbb-fb39-4eaf-a2b8-c451bd4aac28",
+        "reference" : "1716c0ec-b407-497e-ae9b-6048c63f7a5c",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -50,7 +50,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "3c3a1ab5-f8c9-456d-a845-18eba85ea6e5",
+              "reference" : "2ada1842-c7f6-428f-8d3d-287c8b18c15d",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -98,7 +98,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "1fcc0795-b2c4-48d1-b94c-c678d2aa2401",
+              "reference" : "6391d710-282a-444a-bc6a-45921ec15891",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -114,7 +114,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "ac52f64c-a887-4db5-acac-caff95211466",
+        "reference" : "391fcb43-4891-49ee-bb91-8bdb52556cfc",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,10 +123,137 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "2920e472-3435-4f4a-8a48-903dec3e98d2",
+          "reference" : "f849d200-e530-42b0-9e57-a87c94c17242",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "level" : {
+                    "type" : "constant",
+                    "value" : "Level 4"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Business Object Lev Rev Requisitos Initial"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "8a122320-adfc-44a4-8ef3-fbf1c6c6b690",
+                "hasValidationError" : false,
+                "id" : "pbTitle",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "container",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "repeatedCollection" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "40f4267d-7d6b-48f0-a656-4c1780b4c124",
+                "hasValidationError" : false,
+                "id" : "pbContainer",
+                "rows" : [
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "disabled" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Foram definidos requisitos adicionais"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "businessObjectLevRevRequisitosInitial.defRequisitosAdc"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        }
+                      },
+                      "reference" : "1dd3d932-146e-4dfc-959c-ce33e537d80b",
+                      "hasValidationError" : false,
+                      "id" : "pbCheckbox",
+                      "description" : ""
+                    }
+                  ]
+                ]
+              }
+            ],
             [
               {
                 "type" : "component",
@@ -202,7 +329,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "ca4f4648-5760-495c-a63c-0b2ddce50291",
+                "reference" : "034d3acf-2f07-45b1-8704-956f07ef2c59",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -254,7 +381,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "420423ff-028b-44f6-b9bb-2e456bccafa7",
+                "reference" : "e01af163-a29c-4ae4-83dc-9d1de2f17b8a",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -267,16 +394,16 @@
   ],
   "assets" : [
     {
-      "id" : "acc3623c-0abc-4817-a575-058c7c680ebc",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "4d380b47-19f3-4560-a006-f07eae8cad27",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "7c1cc70b-b4ff-49ad-8d4c-b50e64a0632f",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "c00beed5-b539-432d-95a7-d816f2a6f719",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     }
@@ -287,6 +414,13 @@
       "type" : "url",
       "value" : [
         "../API/bpm/userTask/{{taskId}}"
+      ],
+      "exposed" : false
+    },
+    "businessObjectLevRevRequisitosInitial" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.businessObjectLevRevRequisitosInitial_ref.link}}"
       ],
       "exposed" : false
     },
@@ -308,8 +442,13 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "return {",
-        "",
+        "if( $data.businessObjectLevRevRequisitosInitial ){",
+        "\treturn {",
+        "\t\t//map businessObjectLevRevRequisitosInitial variable to expected task contract input",
+        "\t\tbusinessObjectLevRevRequisitosInitialInput: {",
+        "\t\t\tdefRequisitosAdc: $data.businessObjectLevRevRequisitosInitial.defRequisitosAdc !== undefined ? $data.businessObjectLevRevRequisitosInitial.defRequisitosAdc : null",
+        "\t\t}",
+        "\t}",
         "}"
       ],
       "exposed" : false
@@ -330,7 +469,7 @@
     }
   },
   "hasValidationError" : false,
-  "uuid" : "ef1d61ba-56f9-4fbb-aba1-659d41ffccff",
+  "uuid" : "4b5f4bb2-38c8-4227-b656-a544db8444b5",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }

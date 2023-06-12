@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.3",
-  "id" : "newFormLevRevRequisitos",
-  "name" : "newFormLevRevRequisitos",
-  "lastUpdate" : 1686178244413,
+  "id" : "newFormFormacaoFichaIndNec",
+  "name" : "newFormFormacaoFichaIndNec",
+  "lastUpdate" : 1686605559645,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "d64a6c27-d9c3-4822-b74a-379b906b87ea",
+        "reference" : "0c70105a-1893-471e-830b-f7507c552f60",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -50,7 +50,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "32f9e032-b37d-4dcc-b1f9-2e6546a573c4",
+              "reference" : "3f06c136-feb8-478b-be4c-0fc3b46ed87a",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -98,7 +98,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "2af0f3b7-4a00-437d-bd77-dc09f3831e88",
+              "reference" : "22065b7c-612e-48db-b025-e7417b02a515",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -114,7 +114,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "253d6071-be0a-4bf5-9eb3-2c5c42bddc64",
+        "reference" : "6e0efaa6-45ce-4b4d-90c7-6103f4e37270",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,7 +123,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "2181dda7-afc3-4367-bb21-50e17892a457",
+          "reference" : "14c6e9d7-5c8c-4c9f-835f-47833b9385d6",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -151,7 +151,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Business Object Lev Rev Requisitos"
+                    "value" : "Business Object Formacao Main In Initial"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -162,7 +162,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "a7d03da6-50e4-4268-87f0-6b84a293d7cd",
+                "reference" : "c61cbe78-1833-494a-9019-be43d49cfb94",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -194,7 +194,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "851c93e0-c1b5-4b0a-8ced-815dfd4d3c6a",
+                "reference" : "61930297-46a5-4cdf-866a-a836347dfceb",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -226,7 +226,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Def Requisitos"
+                          "value" : "Ficha Individual necessária"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -234,52 +234,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "businessObjectLevRevRequisitos.defRequisitos"
-                        }
-                      },
-                      "reference" : "e0d46d01-ce57-4171-bda2-21fb3095ef2d",
-                      "hasValidationError" : false,
-                      "id" : "pbCheckbox",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "expression",
-                          "value" : "!businessObjectLevRevRequisitos.defRequisitosAdc"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "disabled" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Def Requisitos Adc"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "businessObjectLevRevRequisitos.defRequisitosAdc"
+                          "value" : "businessObjectFormacaoMainInInitial.fichaIndivNec"
                         },
                         "required" : {
                           "type" : "constant",
@@ -290,7 +245,7 @@
                           "value" : false
                         }
                       },
-                      "reference" : "ca60cd74-39d9-4d6f-b699-532b592e8654",
+                      "reference" : "7a948bba-d048-4fba-bf10-cf2919b54bae",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
@@ -374,7 +329,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "9c0590b1-a62f-46c6-bf61-decfb5dbac6b",
+                "reference" : "f7fba171-60fd-4052-b12a-9bbf3fcb8304",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -426,7 +381,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "9af99b7d-b4ca-4a4b-af46-7d401de5d0df",
+                "reference" : "65f8ad57-29e4-462c-b238-09b18288dde8",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -439,14 +394,14 @@
   ],
   "assets" : [
     {
-      "id" : "deea2060-ae78-4011-bd73-cca14a93e496",
+      "id" : "29bbf985-34d7-43c9-bc0d-9cd0b6195c25",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "33e5a0e1-6ad8-4a04-a6c7-d9283541a5d6",
+      "id" : "8d0d7257-0d45-4be4-883c-ec7be4ba531b",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
@@ -480,11 +435,11 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.businessObjectLevRevRequisitos ){",
+        "if( $data.businessObjectFormacaoMainInInitial ){",
         "\treturn {",
-        "\t\t//map businessObjectLevRevRequisitos variable to expected task contract input",
-        "\t\tbusinessObjectLevRevRequisitosInput: {",
-        "\t\t\tdefRequisitos: $data.businessObjectLevRevRequisitos.defRequisitos !== undefined ? $data.businessObjectLevRevRequisitos.defRequisitos : null",
+        "\t\t//map businessObjectFormacaoMainInInitial variable to expected task contract input",
+        "\t\tbusinessObjectFormacaoMainInInitialInput: {",
+        "\t\t\tfichaIndivNec: $data.businessObjectFormacaoMainInInitial.fichaIndivNec !== undefined ? $data.businessObjectFormacaoMainInInitial.fichaIndivNec : null",
         "\t\t}",
         "\t}",
         "}"
@@ -498,10 +453,10 @@
       ],
       "exposed" : false
     },
-    "businessObjectLevRevRequisitos" : {
+    "businessObjectFormacaoMainInInitial" : {
       "type" : "url",
       "value" : [
-        "../{{context.businessObjectLevRevRequisitos_ref.link}}"
+        "../{{context.businessObjectFormacaoMainInInitial_ref.link}}"
       ],
       "exposed" : false
     },
@@ -514,7 +469,7 @@
     }
   },
   "hasValidationError" : false,
-  "uuid" : "e0ff485f-10b1-42cd-9c0c-37eae6fad5db",
+  "uuid" : "15c5ad4f-4b2b-4176-b837-efe1efba527d",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }

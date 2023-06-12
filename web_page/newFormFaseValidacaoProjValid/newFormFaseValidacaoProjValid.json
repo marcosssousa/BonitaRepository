@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.3",
-  "id" : "newFormFormacaoPropostaAceite",
-  "name" : "newFormFormacaoPropostaAceite",
-  "lastUpdate" : 1686417876910,
+  "id" : "newFormFaseValidacaoProjValid",
+  "name" : "newFormFaseValidacaoProjValid",
+  "lastUpdate" : 1686603499942,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "4535af5c-7a17-46e6-ada0-2fed405d0811",
+        "reference" : "7a35f1b6-d643-491d-bcde-7c1344a87bfc",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -50,7 +50,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "a518fcef-c33c-4eae-a6a5-da97edf1c1e0",
+              "reference" : "90e586c3-f555-4f08-8ed3-3ceedebb5a23",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -98,7 +98,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "db0bccb9-ca9a-4cda-8fcb-af30b49f9593",
+              "reference" : "d185f0eb-2609-4005-bab1-a0f3e7c61cef",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -114,7 +114,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "ec983653-fa73-4fef-b645-aab36083091d",
+        "reference" : "c988a7e4-aac8-4787-b5d6-7ac64b1dff05",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,7 +123,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "0426e83e-d3cb-47c7-8df7-9d46a18bbc66",
+          "reference" : "075beacf-f949-4fb6-bf7b-ed5a86948c62",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -151,7 +151,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Business Object Formacao Main In Initial"
+                    "value" : "Business Object Validacao Fase Validacao Initial"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -162,7 +162,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "72ae6cca-3a3f-48a8-ad6f-e43d88445e42",
+                "reference" : "4d3e7c11-27bc-4ddb-853f-185e345858f3",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -194,7 +194,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "29019a41-159c-4a0d-b62b-febaf2ea74ec",
+                "reference" : "b2790c2d-8a06-4afe-ae14-c9c7442bae5b",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -213,8 +213,8 @@
                           "value" : false
                         },
                         "hidden" : {
-                          "type" : "constant",
-                          "value" : false
+                          "type" : "expression",
+                          "value" : "!businessObjectValidacaoFaseValidacaoInitial.testesValidados"
                         },
                         "cssClasses" : {
                           "type" : "constant",
@@ -226,7 +226,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Ficha Indiv Nec"
+                          "value" : "Testes Validados"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -234,18 +234,10 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "businessObjectFormacaoMainInInitial.fichaIndivNec"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
+                          "value" : "businessObjectValidacaoFaseValidacaoInitial.testesValidados"
                         }
                       },
-                      "reference" : "731b9a19-f0e5-4c9d-be57-23b80b6432af",
+                      "reference" : "81b9ac65-42c9-48ab-a9a2-aca775dacfae",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
@@ -279,7 +271,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Proposta aceite"
+                          "value" : "Projeto Validado"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -287,18 +279,10 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "businessObjectFormacaoMainInInitial.propAceite"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
+                          "value" : "businessObjectValidacaoFaseValidacaoInitial.projetoValidado"
                         }
                       },
-                      "reference" : "1ca0789d-9f09-4b37-9a09-b68f35829e52",
+                      "reference" : "e16c418f-0b6f-423d-a33c-e68cab76c22f",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
@@ -382,7 +366,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "b52fda37-febe-41f6-89c5-8a0c0e945b53",
+                "reference" : "e88b2df3-2277-414d-ade5-19578c85e947",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -434,7 +418,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "a8da3461-c306-4494-86b7-8cc577daea8f",
+                "reference" : "b70d4d9e-35b3-4513-bc0e-063146ea173a",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -447,14 +431,14 @@
   ],
   "assets" : [
     {
-      "id" : "29a214c9-3c7f-4247-9c77-7bc7eaf35172",
+      "id" : "84bad500-c6a6-426f-9105-c50f214698d3",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "b979603c-e1dc-4fee-99fe-616700329cab",
+      "id" : "391f211b-58f0-4b26-aa54-f5da9c10b705",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
@@ -463,6 +447,13 @@
   ],
   "inactiveAssets" : [ ],
   "variables" : {
+    "businessObjectValidacaoFaseValidacaoInitial" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.businessObjectValidacaoFaseValidacaoInitial_ref.link}}"
+      ],
+      "exposed" : false
+    },
     "task" : {
       "type" : "url",
       "value" : [
@@ -488,13 +479,11 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.businessObjectFormacaoMainInInitial ){",
+        "if( $data.businessObjectValidacaoFaseValidacaoInitial ){",
         "\treturn {",
-        "\t\t//map businessObjectFormacaoMainInInitial variable to expected task contract input",
-        "\t\tbusinessObjectFormacaoMainInInitialInput: {",
-        "\t\t\tfichaIndivNec: $data.businessObjectFormacaoMainInInitial.fichaIndivNec !== undefined ? $data.businessObjectFormacaoMainInInitial.fichaIndivNec : null,",
-        "\t\t\tpropAceite: $data.businessObjectFormacaoMainInInitial.propAceite !== undefined ? $data.businessObjectFormacaoMainInInitial.propAceite : null,",
-        "\t\t\tclientSolCertForm: $data.businessObjectFormacaoMainInInitial.clientSolCertForm !== undefined ? $data.businessObjectFormacaoMainInInitial.clientSolCertForm : null",
+        "\t\t//map businessObjectValidacaoFaseValidacaoInitial variable to expected task contract input",
+        "\t\tbusinessObjectValidacaoFaseValidacaoInitialInput: {",
+        "\t\t\tprojetoValidado: $data.businessObjectValidacaoFaseValidacaoInitial.projetoValidado !== undefined ? $data.businessObjectValidacaoFaseValidacaoInitial.projetoValidado : null",
         "\t\t}",
         "\t}",
         "}"
@@ -508,13 +497,6 @@
       ],
       "exposed" : false
     },
-    "businessObjectFormacaoMainInInitial" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.businessObjectFormacaoMainInInitial_ref.link}}"
-      ],
-      "exposed" : false
-    },
     "taskId" : {
       "type" : "urlparameter",
       "value" : [
@@ -524,7 +506,7 @@
     }
   },
   "hasValidationError" : false,
-  "uuid" : "24d132db-0cae-451d-91e7-ffe95e4a34d5",
+  "uuid" : "51872ea2-5b23-458a-a6a7-127bc03bc70a",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }

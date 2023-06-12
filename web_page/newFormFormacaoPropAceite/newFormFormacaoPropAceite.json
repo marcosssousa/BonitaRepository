@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.3",
-  "id" : "newFormFormacaoFichaIndivNec",
-  "name" : "newFormFormacaoFichaIndivNec",
-  "lastUpdate" : 1686417092196,
+  "id" : "newFormFormacaoPropAceite",
+  "name" : "newFormFormacaoPropAceite",
+  "lastUpdate" : 1686605606504,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "f392949f-c39e-4d59-bdaf-bc0524a2166e",
+        "reference" : "c354bf94-c4ca-417e-adea-27099dd04fe2",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -50,7 +50,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "a2e92a56-9cc2-44ed-a3ce-8669b95e973f",
+              "reference" : "3b2dae50-8c94-4448-91ef-e90bf9840ee9",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -98,7 +98,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "e73c2a84-9e7e-4752-9ecc-1f15468fc8ad",
+              "reference" : "3e25fbf6-2a04-4853-b80a-efc74348359f",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -114,7 +114,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "0052e753-c247-4181-a88c-333fde7ce8f6",
+        "reference" : "45a007da-a601-4b6f-bca4-d5e13908f2c3",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,7 +123,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "7dcd7dc2-3c51-4090-9d03-73bcf70603df",
+          "reference" : "2954143b-cd5d-4e67-a525-2145cb7873f0",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -162,7 +162,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "0d6103c0-0b67-4756-b3fd-36c00cb31a66",
+                "reference" : "3bd30752-e6d7-49c9-8716-a8f24b41558f",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -194,7 +194,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "bda37499-1702-4885-81b8-bac61fbf5b18",
+                "reference" : "b414103d-d241-4774-a214-986fb08e408d",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -226,7 +226,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Ficha Individual necessária"
+                          "value" : "Proposta aceite"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -234,7 +234,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "businessObjectFormacaoMainInInitial.fichaIndivNec"
+                          "value" : "businessObjectFormacaoMainInInitial.propAceite"
                         },
                         "required" : {
                           "type" : "constant",
@@ -245,7 +245,7 @@
                           "value" : false
                         }
                       },
-                      "reference" : "46aaffa0-5820-4f41-8ad7-e46f9861fe30",
+                      "reference" : "6e3c7282-511f-431f-9311-c4d2be3666dc",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
@@ -329,7 +329,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "1e7f843e-37f4-4c9c-b2e4-096349706139",
+                "reference" : "1691f064-e619-4c01-8a13-23979c91ff5a",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -381,7 +381,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "c047ef6c-e2ea-42b8-a46f-173730cfa12b",
+                "reference" : "6f26bd5d-7060-4278-8d9a-1dfbbab63c10",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -394,14 +394,14 @@
   ],
   "assets" : [
     {
-      "id" : "7043c75d-1a41-4066-929a-9626af97a21f",
+      "id" : "a07a8d2c-00ad-4f79-8023-46610976b2f4",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "ca27fbbb-e8d4-4ff0-a05b-5f91edcd2ee5",
+      "id" : "d50d0be2-a5c8-48f8-88c1-d105ef02ed33",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
@@ -439,7 +439,7 @@
         "\treturn {",
         "\t\t//map businessObjectFormacaoMainInInitial variable to expected task contract input",
         "\t\tbusinessObjectFormacaoMainInInitialInput: {",
-        "\t\t\tfichaIndivNec: $data.businessObjectFormacaoMainInInitial.fichaIndivNec !== undefined ? $data.businessObjectFormacaoMainInInitial.fichaIndivNec : null",
+        "\t\t\tpropAceite: $data.businessObjectFormacaoMainInInitial.propAceite !== undefined ? $data.businessObjectFormacaoMainInInitial.propAceite : null",
         "\t\t}",
         "\t}",
         "}"
@@ -469,7 +469,7 @@
     }
   },
   "hasValidationError" : false,
-  "uuid" : "c6a967fc-f250-4db2-9d0d-3ecd953bc62e",
+  "uuid" : "7942cd75-e77e-4c4f-a651-2f6d60eb1461",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }

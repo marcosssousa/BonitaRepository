@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.3",
-  "id" : "newFormLevRevRequisitosAppByClient",
-  "name" : "newFormLevRevRequisitosAppByClient",
-  "lastUpdate" : 1686178915895,
+  "id" : "newFormRealReunProgNec",
+  "name" : "newFormRealReunProgNec",
+  "lastUpdate" : 1686442620052,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "300e3d19-e978-45aa-80d5-e793c8d35cb4",
+        "reference" : "27ce6e2a-33fb-4670-a7e8-ac7507d9f4aa",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -50,7 +50,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "1f6b294c-caea-4c0f-b723-baeffcbfad89",
+              "reference" : "4527ce30-8fad-4eba-a751-f4bd1eb82404",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -98,7 +98,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "92ccda0f-81a9-4437-9bff-be1c359a1f05",
+              "reference" : "f8af3639-6e7f-4f1e-a907-aea14c171b40",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -114,7 +114,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "6897d92a-ba89-4a5a-b0b9-15ffe351d590",
+        "reference" : "b968ea19-333c-4daf-93e0-eb9636db1a3e",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,7 +123,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "fb8c65c8-1909-48ab-b708-c2e09a25b85f",
+          "reference" : "eecc9062-2379-440e-9e9c-6a23aeacaee3",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -151,7 +151,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Business Object Lev Rev Requisitos"
+                    "value" : "Business Object Ren Prog Initial"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -162,7 +162,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "305613db-110f-4b78-a656-087e5616884e",
+                "reference" : "19e48e5c-ec69-4983-a7c1-a6647164ea20",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -194,7 +194,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "e5191549-8750-47e8-afca-bb45ad543025",
+                "reference" : "7f2eaf94-0b77-456b-9b70-c42bcf02e442",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -226,7 +226,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Requisitos aprovados pelo cliente"
+                          "value" : "Reunião Progresso necessária"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -234,7 +234,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "businessObjectLevRevRequisitos.requisitosApproved"
+                          "value" : "businessObjectRenProgInitial.reuniaoProgrssoNec"
                         },
                         "required" : {
                           "type" : "constant",
@@ -245,7 +245,7 @@
                           "value" : false
                         }
                       },
-                      "reference" : "a44e6ae1-0a25-46a9-bfd3-2b92652e62bd",
+                      "reference" : "a3b938d0-5126-4b03-8060-61f40a71b79c",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
@@ -329,7 +329,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "c8d22a7c-f2c1-417c-90b9-d0e0bd18aa2a",
+                "reference" : "e828f8d7-0c98-4302-b960-03a32f560d4d",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -381,7 +381,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "4d67638a-3285-4854-8df3-84998453857c",
+                "reference" : "e3ad9749-f1de-4f4f-8b07-4bdeb5996494",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -394,22 +394,29 @@
   ],
   "assets" : [
     {
-      "id" : "77941c76-6365-4941-8397-0aa3acac7eda",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "2b3938b1-04fd-4187-844d-62fa70b1232c",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "9e4adc12-a4e8-4036-9dd8-3682856c4582",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "7fbd9030-f058-4489-9ed5-e14951128e83",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     }
   ],
   "inactiveAssets" : [ ],
   "variables" : {
+    "businessObjectRenProgInitial" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.businessObjectRenProgInitial_ref.link}}"
+      ],
+      "exposed" : false
+    },
     "task" : {
       "type" : "url",
       "value" : [
@@ -435,11 +442,11 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.businessObjectLevRevRequisitos ){",
+        "if( $data.businessObjectRenProgInitial ){",
         "\treturn {",
-        "\t\t//map businessObjectLevRevRequisitos variable to expected task contract input",
-        "\t\tbusinessObjectLevRevRequisitosInput: {",
-        "\t\t\trequisitosApproved: $data.businessObjectLevRevRequisitos.requisitosApproved !== undefined ? $data.businessObjectLevRevRequisitos.requisitosApproved : null",
+        "\t\t//map businessObjectRenProgInitial variable to expected task contract input",
+        "\t\tbusinessObjectRenProgInitialInput: {",
+        "\t\t\treuniaoProgrssoNec: $data.businessObjectRenProgInitial.reuniaoProgrssoNec !== undefined ? $data.businessObjectRenProgInitial.reuniaoProgrssoNec : null",
         "\t\t}",
         "\t}",
         "}"
@@ -453,13 +460,6 @@
       ],
       "exposed" : false
     },
-    "businessObjectLevRevRequisitos" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.businessObjectLevRevRequisitos_ref.link}}"
-      ],
-      "exposed" : false
-    },
     "taskId" : {
       "type" : "urlparameter",
       "value" : [
@@ -469,7 +469,7 @@
     }
   },
   "hasValidationError" : false,
-  "uuid" : "b53ad4f9-642c-47aa-8faf-5c02f9e2471e",
+  "uuid" : "8d3eb8a0-0cf6-41c5-98f0-6007dede99fb",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }
